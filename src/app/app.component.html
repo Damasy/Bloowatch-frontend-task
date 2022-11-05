@@ -1,0 +1,66 @@
+<nav role="banner" class="p-4 d-flex flex-wrap align-items-center justify-content-between w-100">
+  <a routerLink="products/list" class="mx-2" routerLinkActive="active">
+    <img class="w-75 ps-5 p-2" src="../assets/images/314349142_3398075247090725_5500089719665696454_n.gif" />
+  </a>
+  <div class="d-flex justify-content-between pe-5 header-link">
+
+    <div class="header-nav" routerLink="products/list" routerLinkActive="active">
+      SHOP
+    </div>
+    <div class="header-nav" routerLink="products/list" routerLinkActive="active">
+      BLOG
+    </div>
+    <div class="header-nav" routerLink="products/list" routerLinkActive="active">
+      SEARCH
+    </div>
+    <div class="header-nav" routerLink="products/cart" routerLinkActive="active">
+      <img src="../assets/images/cart.svg" />
+      CART
+    </div>
+  </div>
+</nav>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <p class="container">
+    SURFING
+  </p>
+</div>
+
+<div class="mx-4 base" role="main">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="footer bg-black d-flex p-5 text-white">
+  <div class="w-25 p-5">
+    <span class=" fw-bold">About</span>
+    <p class="mt-3">Bloowatch is specialized software for watersports schools (surfing, kitesurfing, sailing, and
+      diving) and outdoor activity providers (skiing, climbing
+    </p>
+  </div>
+  <div class="w-25 p-5">
+    <span class=" fw-bold">Contact</span>
+    <p class="mt-3">156-677-124-442-2887
+
+      wave@bloowatch.com
+
+      Spain
+    </p>
+  </div>
+  <div class="w-25 p-5">
+    <span class=" fw-bold mb-3">USEFULL LINKS</span>
+    <span>
+      <p>us</p> 
+      <p>History</p> 
+      <p>Contact us</p>
+    </span>
+  </div>
+  <div class="w-25 p-5">
+    <span class=" fw-bold">Instagram</span>
+    <p class="mt-3">Bloowatch is specialized software for watersports schools (surfing, kitesurfing, sailing, and
+      diving) and outdoor activity providers (skiing, climbing
+    </p>
+  </div>
+
+</div>
+<ngx-spinner type="ball-scale-multiple"></ngx-spinner>

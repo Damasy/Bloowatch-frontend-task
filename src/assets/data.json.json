@@ -1,0 +1,80 @@
+ [
+  {
+    "id": 1,
+    "image": "../assets/images/photo_2022-11-02_11-09-16.jpg",
+    "price": 150,
+    "name": "LIGTTWAVE BOARD",
+    "descrption":
+      "Causae iudicat vitu perata mea ei, cum posse im pedit molestie ne, atqui viris simi lique ei vel. Per te illud an imal, vix ea sint con sul a pella tur iris itegre.",
+    "onSale": true,
+    "canBuy": true,
+    "salePrice": 120,
+    "categories": ["Equipment", "Board"],
+    "category": "Board"
+  },
+  {
+    "id": 2,
+    "image": "../assets/images/photo_2022-11-02_11-09-27.jpg",
+    "price": 160,
+    "name": "SCUBA DIVING WETSUIT",
+    "descrption":
+      "Causae iudicat vitu perata mea ei, cum posse im pedit molestie ne, atqui viris simi lique ei vel. Per te illud an imal, vix ea sint con sul a pella tur iris itegre.",
+    "onSale": true,
+    "canBuy": false,
+    "salePrice": 128,
+    "categories": ["Equipment", "Board"],
+    "category": "Equipment"
+  },
+  {
+    "id": 3,
+    "image": "../assets/images/photo_2022-11-02_11-09-41.jpg",
+    "price": 100,
+    "name": "Woman’s Wetsuit Pro",
+    "descrption":
+      "Causae iudicat vitu perata mea ei, cum posse im pedit molestie ne, atqui viris simi lique ei vel. Per te illud an imal, vix ea sint con sul a pella tur iris itegre.",
+    "onSale": false,
+    "canBuy": false,
+    "salePrice": null,
+    "categories": ["Equipment", "Scubadiving"],
+    "category": "Scubadiving"
+  },
+  {
+    "id": 4,
+    "image": "../assets/images/photo_2022-11-02_11-09-41.jpg",
+    "price": 80,
+    "name": "Board Paddle Pair",
+    "descrption":
+      "Causae iudicat vitu perata mea ei, cum posse im pedit molestie ne, atqui viris simi lique ei vel. Per te illud an imal, vix ea sint con sul a pella tur iris itegre.",
+    "onSale": false,
+    "canBuy": false,
+    "salePrice": null,
+    "categories": ["Canoenig", "Equipment"],
+    "category": "Canoenig"
+  },
+  {
+    "id": 5,
+    "image": "../assets/images/photo_2022-11-02_11-09-48.jpg",
+    "price": 170,
+    "name": "Kayak With Paddles",
+    "descrption":
+      "Causae iudicat vitu perata mea ei, cum posse im pedit molestie ne, atqui viris simi lique ei vel. Per te illud an imal, vix ea sint con sul a pella tur iris itegre.",
+    "onSale": false,
+    "canBuy": false,
+    "salePrice": null,
+    "categories": ["Canoenig", "Paddling"],
+    "category": "Paddling"
+  },
+  {
+    "id": 6,
+    "image": "../assets/images/photo_2022-11-02_11-09-53.jpg",
+    "price": 150,
+    "name": "LIGTTWAVE BOARD",
+    "descrption":
+      "Causae iudicat vitu perata mea ei, cum posse im pedit molestie ne, atqui viris simi lique ei vel. Per te illud an imal, vix ea sint con sul a pella tur iris itegre.",
+    "onSale": false,
+    "canBuy": false,
+    "salePrice": null,
+    "categories": ["Equipment", "Board"],
+    "category": "oppl"
+  }
+]

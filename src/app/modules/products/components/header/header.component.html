@@ -1,0 +1,4 @@
+<select [(ngModel)]="selectcategory" (ngModelChange)="filter($event)" class="categories text-muted">
+    <option>All categories</option>
+    <option *ngFor=" let allcategorie of allcategories" >{{allcategorie}}</option>
+  </select>

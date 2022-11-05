@@ -1,0 +1,47 @@
+<section class="products-list">
+  <!-- Start Product -->
+  <div class="d-flex fw-bold justify-content-between">
+    <p class="w-50 ps-5">PRODUCT</p>
+    <div class="d-flex">
+      <p class="pe-5">PRICE</p>
+      <p>QUANTITY</p>
+    </div>
+    <p class="pe-5">SUBTOTAL</p>
+  </div>
+  <div class="border border-start-0 fw-bold border-end-0">
+    <ng-container *ngFor="let product of cartProduct ,let index = index">
+      <div class=" d-flex justify-content-between  p-3 align-items-center">
+        <div class="w-50">
+          <img class=" icon-fluid" src="assets/images//trash.svg" (click)="deletProduct(index)" />
+
+          <img [routerLink]="['../product', product?.id]" class="img-fluid ms-5 me-3" [src]="product?.image" />
+          <a [routerLink]="['../product', product?.id]" class="d-inline-block cursor-pointer my-2 head">{{product?.title
+            }}</a>
+
+        </div>
+
+        <div class="product-content align-items-center py-4 me-5 d-flex ">
+          <span class="me-sm-2">
+            ${{product?.price}}
+          </span>
+          <input min="1" (ngModelChange)="changAmount($event)" type="number" [(ngModel)]="product.amount" type="number"
+            class="form-control ms-lg-4 ms-sm-3 input-fluid ">
+        </div>
+
+        <div class="fw-bold pe-5">
+          {{product.amount * product.price}}
+        </div>
+
+      </div>
+
+    </ng-container>
+  </div>
+</section>
+<div class="my-5 ms-5">
+<button mat-raised-button color="primary" class="px-3">
+  APPLY COUPON
+</button>
+<button (click)="getData()" mat-raised-button color="primary" class="px-3 ms-3">
+  UPDATE CART
+</button>
+</div>

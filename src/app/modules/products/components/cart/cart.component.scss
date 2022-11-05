@@ -1,0 +1,22 @@
+.img-fluid{
+  width: 10%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: #333;
+  line-height: normal;
+
+  &:hover {
+    color: #ff305b;
+  }
+}
+
+.input-fluid{
+  max-width: 3.5rem;
+}
+
+.icon-fluid{
+  cursor: pointer;
+}

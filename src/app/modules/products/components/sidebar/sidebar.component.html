@@ -1,0 +1,23 @@
+<div class="search pb-4">
+    <span>
+            <div class="form-outline">
+                <span class=" fw-bold fs-6">SEARCH</span>
+                <input [(ngModel)]="searchText" (ngModelChange)="searchT($event)" type="search"  class="form-control mt-2 input-search " placeholder="Search Products, categories ..." aria-label="Search" />
+              </div>
+    </span>
+</div>
+
+<div class="my-4">
+    <span>PRICE</span>
+</div>
+
+<div class="my-4">
+    <h1 class="fw-bold fs-6">CATEGORIES</h1>
+    <p
+      (click)="filter(allcategorie)"
+      class="Categories text-secondary"
+      *ngFor="let allcategorie of allcategories"
+    >
+      {{ allcategorie }}
+    </p>
+  </div>
